@@ -1,0 +1,37 @@
+{
+  "login": {
+    "login_button": "Login",
+    "swlang_button": "Bahasa",
+    "label_email": "Email",
+    "label_password": "Password",
+    "tombol_login" : "Login",
+    "label_login_first": "Please login first",
+    "label_select_lang": "Select Language",
+    "hide_password": "Hide",
+    "label_register": "Dont have an account? Click here Register."
+  },
+  "main" : {
+    "label_user_info" : "User Information",
+    "label_user_name" : "Username",
+    "label_fullname" : "Fullname",
+    "label_user_email" : "Email",
+    "label_user_balance" : "Balance Information",
+    "label_saldo" : "Balance",
+    "label_pengeluaran" : "Expense",
+    "label_pemasukan" : "Income",
+    "label_deposit" : "Deposit",
+    "label_withdraw" : "Withdraw",
+    "topup_button" : "Process",
+    "withdraw_button" : "Process",
+    "logout_button" : "Logout"
+  },
+  "register" : {
+    "label_register": "Please Register First",
+    "label_firstname" : "Firstname",
+    "label_lastname" : "Lastname",
+    "label_email" : "Email",
+    "label_password" : "Password",
+    "label_confirmpassword" : "Confirm Password",
+    "button_register" : "Register"
+  }
+}
