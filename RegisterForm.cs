@@ -94,10 +94,5 @@ namespace APL
             //hide
             textBox5.UseSystemPasswordChar = true;
         }
-
-        private void RegisterForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
