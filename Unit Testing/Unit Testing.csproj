@@ -46,6 +46,10 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
+      <ProjectReference Include="..\APL.csproj">
+        <Project>{3fe63bd2-8177-48eb-a722-6a4fb4ba887d}</Project>
+        <Name>APL</Name>
+      </ProjectReference>
       <ProjectReference Include="..\Count\Count.csproj">
         <Project>{405b7c5e-4e8a-4d33-9d7c-6d2441f2d286}</Project>
         <Name>Count</Name>

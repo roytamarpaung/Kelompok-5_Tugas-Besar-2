@@ -1,4 +1,5 @@
 ﻿using System;
+using APL;
 using NUnit.Framework;
 
 namespace Unit_Testing
@@ -25,5 +26,20 @@ namespace Unit_Testing
             
             Assert.AreEqual(1000, c);
         }
+        
+        //Register
+        [Test]
+        public void addUser()
+        {
+            string a = "A";
+            string b = "B";
+            string c = "C";
+            string d = "D";
+            string e = "E";
+            pengguna.addUser(a,b,c,d, e);
+        }
+        
+        [Test]
+        public void 
     }
 }
