@@ -1,0 +1,37 @@
+﻿{
+    "login": {
+        "login_button": "Masuk",
+        "swlang_button": "English",
+        "label_email": "Email",
+        "label_password": "Kata Sandi",
+        "tombol_login" : "Login",
+        "label_login_first": "Silahkan masuk terlebih dahulu",
+        "label_select_lang": "Pilih bahasa",
+        "hide_password": "Sembunyikan",
+        "label_register": "Belum punya akun? Click di sini."
+    },
+    "main" : {
+        "label_user_info" : "Informasi Pengguna",
+        "label_user_name" : "Username",
+        "label_fullname" : "Nama Lengkap",
+        "label_user_email" : "Email",
+        "label_user_balance" : "Informasi Saldo",
+        "label_saldo" : "Saldo",
+        "label_pengeluaran" : "Pengeluaran",
+        "label_pemasukan" : "Pemasukan",
+        "label_deposit" : "Tambah Saldo",
+        "label_withdraw" : "Penarikan Saldo",
+        "topup_button" : "Proses",
+        "withdraw_button" : "Proses",
+        "logout_button" : "Keluar"
+    },
+    "register" : {
+        "label_register": "Silahkan daftar terlebih dahulu",
+        "label_firstname" : "Nama Depan",
+        "label_lastname" : "Nama Belakang",
+        "label_email" : "Email",
+        "label_password" : "Kata Sandi",
+        "label_confirm_password" : "Konfirmasi Kata Sandi",
+        "button_register" : "Daftar"
+    }
+} 
