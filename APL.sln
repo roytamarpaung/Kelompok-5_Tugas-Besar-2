@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APL", "APL.csproj", "{3FE63BD2-8177-48EB-A722-6A4FB4BA887D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count", "Count\Count.csproj", "{405B7C5E-4E8A-4D33-9D7C-6D2441F2D286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit Testing", "Unit Testing\Unit Testing.csproj", "{FBAEFEF3-EF75-4972-9026-E233DFA0BE5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{3FE63BD2-8177-48EB-A722-6A4FB4BA887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FE63BD2-8177-48EB-A722-6A4FB4BA887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FE63BD2-8177-48EB-A722-6A4FB4BA887D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405B7C5E-4E8A-4D33-9D7C-6D2441F2D286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405B7C5E-4E8A-4D33-9D7C-6D2441F2D286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405B7C5E-4E8A-4D33-9D7C-6D2441F2D286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405B7C5E-4E8A-4D33-9D7C-6D2441F2D286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAEFEF3-EF75-4972-9026-E233DFA0BE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAEFEF3-EF75-4972-9026-E233DFA0BE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAEFEF3-EF75-4972-9026-E233DFA0BE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAEFEF3-EF75-4972-9026-E233DFA0BE5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
