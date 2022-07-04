@@ -1,0 +1,11 @@
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\Unit_Testing.dll
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\Unit_Testing.pdb
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\Count.dll
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\nunit.framework.dll
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\Count.pdb
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\bin\Debug\nunit.framework.xml
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\obj\Debug\Unit Testing.csproj.AssemblyReference.cache
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\obj\Debug\Unit Testing.csproj.CoreCompileInputs.cache
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\obj\Debug\Unit Testing.csproj.CopyComplete
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\obj\Debug\Unit_Testing.dll
+D:\Telyuuu\.Semester 4\Github\KPL\TugasBesar_Kelompok5\Unit Testing\obj\Debug\Unit_Testing.pdb
