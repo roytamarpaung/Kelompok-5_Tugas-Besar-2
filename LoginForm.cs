@@ -11,30 +11,32 @@ namespace APL
         public LoginForm()
         {
             InitializeComponent();
-            //title window
+            // Mengatur judul window.
             Text = "Aplikasi Pengatur Keuanganmu!";
-            // ukuran window
+            // Menginisisasikan dan mengatur ukuran dari window.
             Size = new Size(800, 600);
-            StartPosition = FormStartPosition.CenterScreen; // posisi window di tengah layar
+            // Memposisikan window/tampilan berada tengah layar saat dilakukan runing.
+            StartPosition = FormStartPosition.CenterScreen; 
             checkBox1.Checked = true;
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false; //disable maximize button
+            // Disable maximize button.
+            MaximizeBox = false; 
         }
-        
         private void Form1_Load(object sender, EventArgs e)
         {
-            // load json
+            // Membaca file konfigurasi.
             string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName;
             string cfgjson = File.ReadAllText(path + "\\TugasBesar_Kelompok5/Config.json");
-            string cfglangID = File.ReadAllText(path + "\\TugasBesar_Kelompok5/langID.json"); //lokasi cfg bahasa indonesia
-            string cfglangEN = File.ReadAllText(path + "\\TugasBesar_Kelompok5/langEN.json"); //lokasi cfg bahasa inggris
-            //deserialize json
+            string cfglangID = File.ReadAllText(path + "\\TugasBesar_Kelompok5/langID.json");
+            string cfglangEN = File.ReadAllText(path + "\\TugasBesar_Kelompok5/langEN.json");
+
+            //Deserialisasi json menjadi objek.
             dynamic cfg = JsonConvert.DeserializeObject(cfgjson);
             dynamic langID = JsonConvert.DeserializeObject(cfglangID);
             dynamic langEN = JsonConvert.DeserializeObject(cfglangEN);
-            //apply configuration
+            //Penampung configuration.
             if (cfg.lang == "id")
-            {
+            { 
                 label1.Text = langID.login.label_email;
                 label2.Text = langID.login.label_password;
                 label3.Text = langID.login.label_login_first;
@@ -56,10 +58,10 @@ namespace APL
                 label5.Text = langEN.login.label_register;
             }
         }
-        
         public MainForm mainForm;
 
-        private void button1_Click(object sender, EventArgs e) //login
+        //Button login.
+        private void button1_Click(object sender, EventArgs e) 
         {
             if (textBox2.Text == "" || textBox1.Text == "")
             {
@@ -151,7 +153,7 @@ namespace APL
         
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            //textbox1 - email            
+            //textbox1 - email             
         }
         
         //Checkbox - show password
